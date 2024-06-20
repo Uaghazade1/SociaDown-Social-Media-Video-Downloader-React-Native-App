@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "SocialDown",
+    "slug": "socialdown",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.selenium.socialdown"
+    },
+    "android": {
+      "package": "com.selenium.socialdown",
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c075f8ee-9898-478d-acd3-e915e11824c9"
+      }
+    }
+  }
+}
